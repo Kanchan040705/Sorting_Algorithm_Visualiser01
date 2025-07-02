@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 id="main-heading">Sorting Algorithm Visualizer</h1>
+  <p id="status" style="font-weight: bold; font-size: 18px; color: green;"></p>
+  <p id="status" style="font-weight: bold; font-size: 18px; color: green;"></p>
+
+  <div class="controls">
+  <button class="generate-btn" onclick="generateArray()">Generate New Array</button>
+  <button class="sort-btn" onclick="bubbleSort()">Bubble Sort</button>
+  <button class="sort-btn" onclick="selectionSort()">Selection Sort</button>
+  <button class="sort-btn" onclick="mergeSort()">Merge Sort</button>
+  <button class="stop-btn" onclick="stopSorting()">Stop</button> 
+</div>
+
+  <div id="array-container"></div>
+
+  <script src="source.js"></script>
+  <script src="bubbleSort.js"></script>
+  <script src="mergeSort.js"></script>
+  <script src="SelectionSort.js"></script>
+</body>
+<footer id="site-footer">
+  <p>Made with ❤️ by Kanchan • © 2025 Sorting Visualizer</p>
+</footer>
+</html>
+
